@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Trebuchet MS, sans-serif;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-img {
+    width: auto;
+    height: 60px;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar li {
+    margin: 10px;
+    list-style: none;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#home-img,
+#about-us-img {
+    width: 100%;
+}
+
+#about-us-img {
+    padding-bottom: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+section h1 {
+    font-size: 30px;
+    padding: 10px 0;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+section p {
+    padding-bottom: 20px;
+}
+
+section ul {
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+
+#Home {
+    padding-top: 80px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+
+.socials li {
+    margin: 10px;
+    list-style: none;
+}
+
+.socials h2 {
+    height: 50px;
+    background: #154734;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#About_Us {
+    background: #154734;
+    color: #fff;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 80%;
+    margin: 0 10%;
+}
+
+#Contact_Us {
+    background: #e1dfd9;
+}
+
+fieldset {
+    border: none;
+}
+
+.half {
+    display: flex;
+    align-items: center;
+}
+
+.half label,
+.half input {
+    width: calc(50% - 5px);
+    margin-right: 5px;
+}
+
+label,
+input,
+textarea {
+    width: 100%;
+    margin: 5px 0;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+input {
+    height: 40px;
+    padding-bottom: 25px;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type="submit"] {
+    width: auto;
+    height: auto;
+    border: none;
+    background: #154734;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    background: #154734;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    #header {
+        justify-content: space-evenly;
+    }
+
+    #nav-bar ul {
+        flex-direction: column;
+    }
+
+    #Home {
+        padding-top: 140px;
+    }
+}
